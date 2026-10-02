@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>История Альберта от сестры</title>
+    <link rel="stylesheet" href="story.css" />
+  </head>
+  <body>
+    <main class="story" aria-label="История Альберта от сестры">
+      <a class="story__back" href="index.html" aria-label="Вернуться к ALBERT">
+        <span aria-hidden="true">&larr;</span>
+        <span>ALBERT</span>
+      </a>
+
+      <p class="story__signature" aria-hidden="true">♡ SISTER</p>
+
+      <section class="story__stage" aria-label="Видео от сестры">
+        <div class="story__video-shell">
+          <video
+            class="story__video"
+            src="assets/video/sister-intro.mp4"
+            preload="auto"
+            playsinline
+            autoplay
+          ></video>
+
+          <button class="story__play" type="button" aria-label="Смотреть видео со звуком" hidden>
+            <span aria-hidden="true">▶</span>
+            <span>СМОТРЕТЬ</span>
+          </button>
+        </div>
+
+        <div class="story__ending">
+          <p class="story__ending-kicker">А теперь —</p>
+          <h1 class="story__ending-title">с самого начала.</h1>
+          <p class="story__aside">Ну… почти с самого.</p>
+          <a class="story__start" href="#" aria-label="Начать историю">
+            <span>НАЧАТЬ ИСТОРИЮ</span>
+            <span aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="chapter chapter--one" aria-label="Глава 1" aria-hidden="true" hidden>
+        <div class="chapter__photo-wrap" aria-hidden="true">
+          <img class="chapter__photo chapter__photo--beauty" src="assets/images/albert-girl-beauty.png" alt="" />
+          <img class="chapter__photo chapter__photo--reality" src="assets/images/albert-girl-reality.png" alt="" />
+        </div>
+
+        <div class="chapter__copy" aria-live="polite">
+          <p class="chapter__line chapter__line--one">Когда-то Альберт был девушкой.</p>
+          <p class="chapter__line chapter__line--two">Что…<br />уже слюнки потекли?</p>
+          <p class="chapter__line chapter__line--three">А нет.<br />Всё было не настолько красиво.</p>
+        </div>
+
+        <button class="chapter__next" type="button" aria-label="Продолжить историю">
+          <span class="chapter__next-text">NEXT <span aria-hidden="true">&rarr;</span></span>
+          <img class="chapter__runner" src="assets/images/sister-running.png" alt="" aria-hidden="true" />
+        </button>
+      </section>
+
+      <section class="chapter chapter--gambling gambling" aria-label="Глава про лудоманию" aria-hidden="true" hidden>
+        <div class="gambling__photos" aria-hidden="true">
+          <img class="gambling__photo gambling__photo--one" src="assets/images/albert-computer-1.jpg" alt="" />
+          <img class="gambling__photo gambling__photo--two" src="assets/images/albert-computer-2.jpg" alt="" />
+          <img class="gambling__photo gambling__photo--aggression-two" src="assets/images/aggression-2.jpg" alt="" />
+          <img class="gambling__photo gambling__photo--hookah-one" src="assets/images/albert-hookah.jpg" alt="" />
+          <img class="gambling__photo gambling__photo--hookah-two" src="assets/images/hookah-2.jpg" alt="" />
+        </div>
+
+        <div class="gambling__copy" aria-live="polite">
+          <p class="gambling__line gambling__line--one">Азартные игры начали менять Альберта…</p>
+          <p class="gambling__line gambling__line--two">Он сутками сидел за компьютером,<br />почти не ел и стремительно худел.</p>
+          <p class="gambling__line gambling__line--family">По нашей семейной версии,<br />примерно тогда организм понял…</p>
+          <p class="gambling__line gambling__line--testosterone">Ну всё.<br />Пора вырабатывать <span>тестостерон.</span></p>
+          <p class="gambling__line gambling__line--side">Но вместе с тестостероном<br />пришёл один побочный эффект…</p>
+          <p class="gambling__word gambling__word--aggression">АГРЕССИЯ</p>
+          <p class="gambling__line gambling__line--hookah-one">Мы уже не знали,<br />что с ним делать…</p>
+          <p class="gambling__line gambling__line--hookah-two">И тогда в ход пошла<br />тяжёлая артиллерия.</p>
+          <p class="gambling__word gambling__word--hookah">КАЛЬЯН.</p>
+        </div>
+
+        <button class="chapter__next gambling__next" type="button" aria-label="Продолжить историю">
+          <span class="chapter__next-text">NEXT <span aria-hidden="true">&rarr;</span></span>
+          <img class="chapter__runner" src="assets/images/sister-running.png" alt="" aria-hidden="true" />
+        </button>
+      </section>
+
+      <section class="chapter chapter--love love" aria-label="Романтическая глава" aria-hidden="true" hidden>
+        <div class="love__media" aria-hidden="true">
+          <img class="love__image love__image--one" src="assets/images/love-01.png" alt="" />
+          <div class="love__portrait">
+            <img class="love__portrait-bg" src="assets/images/love-02.jpg" alt="" />
+            <img class="love__image love__image--two" src="assets/images/love-02.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="love__copy" aria-live="polite">
+          <p class="love__title">А потом появилась <span>она…</span></p>
+          <p class="love__final"><span>И он</span><strong>ПРЕОБРАЗИЛСЯ…</strong></p>
+        </div>
+
+        <button class="chapter__next love__next" type="button" aria-label="Продолжить историю">
+          <span class="chapter__next-text">NEXT <span aria-hidden="true">&rarr;</span></span>
+          <img class="chapter__runner" src="assets/images/sister-running.png" alt="" aria-hidden="true" />
+        </button>
+      </section>
+
+      <section class="chapter chapter--happy happy" aria-label="Новая жизнь Альберта" aria-hidden="true" hidden>
+        <div class="happy__media" aria-hidden="true">
+          <img class="happy__photo happy__photo--smile" src="assets/images/happy-smile.jpg" alt="" />
+          <img class="happy__photo happy__photo--dance" src="assets/images/happy-dance.jpg" alt="" />
+          <img class="happy__photo happy__photo--horse" src="assets/images/horse-riding.jpg" alt="" />
+          <img class="happy__photo happy__photo--weight" src="assets/images/weightlifting.jpg" alt="" />
+          <img class="happy__photo happy__photo--now" src="assets/images/albert-now.jpg" alt="" />
+          <img class="happy__photo happy__photo--reality" src="assets/images/albert-reality.jpg" alt="" />
+          <video class="happy__video" src="assets/video/albert-fat.mp4" preload="auto" playsinline></video>
+        </div>
+
+        <div class="happy__copy" aria-live="polite">
+          <p class="happy__line happy__line--smile">Он стал чаще улыбаться.</p>
+          <p class="happy__line happy__line--dance">Начал больше двигаться…<br />и даже танцевать.</p>
+          <p class="happy__line happy__line--sport">В его жизни появился спорт.</p>
+          <p class="happy__line happy__line--horse">Он занялся верховой ездой.</p>
+          <p class="happy__line happy__line--weight">А вскоре перешёл к тяжёлой атлетике.</p>
+          <p class="happy__line happy__line--years">Годы тренировок не прошли даром…</p>
+          <p class="happy__line happy__line--now">И вот каким он стал.</p>
+          <p class="happy__line happy__line--reality-one">Если вы опять купились на эту байку…</p>
+          <p class="happy__line happy__line--reality-two">То у меня для вас плохие новости.</p>
+        </div>
+
+        <button class="chapter__next happy__next" type="button" aria-label="Продолжить историю">
+          <span class="chapter__next-text">NEXT <span aria-hidden="true">&rarr;</span></span>
+          <img class="chapter__runner" src="assets/images/sister-running.png" alt="" aria-hidden="true" />
+        </button>
+      </section>
+
+      <section class="chapter chapter--final final" aria-label="Финал истории" aria-hidden="true" hidden>
+        <div class="final__media" aria-hidden="true">
+          <div class="final__frame final__frame--strange-one">
+            <img class="final__bg" src="assets/images/strange-01.jpg" alt="" />
+            <img class="final__image" src="assets/images/strange-01.jpg" alt="" />
+          </div>
+          <div class="final__frame final__frame--strange-two">
+            <img class="final__bg" src="assets/images/strange-02.jpg" alt="" />
+            <img class="final__image" src="assets/images/strange-02.jpg" alt="" />
+          </div>
+          <div class="final__frame final__frame--strange-three">
+            <img class="final__bg" src="assets/images/strange-03.jpg" alt="" />
+            <img class="final__image" src="assets/images/strange-03.jpg" alt="" />
+          </div>
+          <div class="final__frame final__frame--family-one">
+            <img class="final__bg" src="assets/images/family-01.jpg" alt="" />
+            <img class="final__image" src="assets/images/family-01.jpg" alt="" />
+          </div>
+          <div class="final__frame final__frame--family-two">
+            <img class="final__bg" src="assets/images/family-02.png" alt="" />
+            <img class="final__image" src="assets/images/family-02.png" alt="" />
+          </div>
+          <div class="final__frame final__frame--family-three">
+            <img class="final__bg" src="assets/images/family-03.jpg" alt="" />
+            <img class="final__image" src="assets/images/family-03.jpg" alt="" />
+          </div>
+          <div class="final__frame final__frame--boat">
+            <img class="final__bg" src="assets/images/albert_final_boat.png" alt="" />
+            <img class="final__image" src="assets/images/albert_final_boat.png" alt="" />
+          </div>
+        </div>
+
+        <div class="final__copy" aria-live="polite">
+          <p class="final__line final__line--strange-intro">Но кое-что с годами<br />так и не изменилось…</p>
+          <p class="final__line final__line--strange-one">Он всегда был немного странным.</p>
+          <p class="final__line final__line--strange-two">Иногда — <span>очень</span> странным.</p>
+          <p class="final__line final__line--years">Прошло больше десяти лет…</p>
+          <p class="final__line final__line--same"><span>В принципе…</span><strong>ничего не изменилось.</strong></p>
+          <p class="final__line final__line--honest">Но если без шуток…</p>
+          <p class="final__line final__line--time">За всеми этими историями<br />прошло много лет.</p>
+          <p class="final__line final__line--changed">Многое изменилось.</p>
+          <p class="final__line final__line--important">Но самое важное —<br />осталось рядом.</p>
+          <p class="final__caption final__caption--family-one">Время идёт.</p>
+          <p class="final__caption final__caption--family-two">Меняются годы.<br />Меняемся мы.</p>
+          <p class="final__caption final__caption--family-three">А рядом появляются<br />те, ради кого всё это имеет смысл.</p>
+          <p class="final__line final__line--question"><span>И всё-таки…</span><strong>К чему ты идёшь?</strong></p>
+          <p class="final__line final__line--brother">Братишка, круто видеть,<br />каким ты стал.</p>
+          <p class="final__line final__line--beginning">Но, кажется, это только начало.</p>
+          <p class="final__line final__line--future">Посмотрим, к чему ты ещё придёшь…</p>
+          <p class="final__caption final__caption--continue">Продолжение следует…</p>
+        </div>
+
+        <div class="final__legend" aria-live="polite">
+          <p class="final__legend-name">ALBERT GRECHUSHKIN</p>
+          <p class="final__legend-subtitle">легенда продолжается.</p>
+          <a class="final__return" href="index.html" aria-label="Вернуться к легенде Альберта">
+            ← ВЕРНУТЬСЯ К ЛЕГЕНДЕ
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="story.js"></script>
+  </body>
+</html>
